@@ -1,0 +1,63 @@
+.navbar-brand, h1,h2,h3,h4,h5,.f-title, .heading{
+  font-family: 'Arvo', serif;
+}
+
+.nav, .f-body, p, sub{
+  font-family: 'PT Sans', sans-serif;
+}
+
+#logo{
+  margin-top:80px;
+  margin-bottom:20px;
+}
+.menu-name{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: 'Arvo', serif;
+  display: block;
+  margin: 10px 0px;
+}
+.price{
+  float:right;
+}
+.bcopy{
+  font-size: 18px;
+  display: block;
+}
+
+.menu-sub{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.heading{
+  font-size: 40px;
+  font-weight: bold;
+  border-bottom: 3px #D70013 solid;
+  margin: 15px 0;
+  color: #403537;
+}
+
+.icon-heading{
+  font-size: 15px;
+  position: relative;
+  top:-5px;
+  color: #D70013;
+  margin: 0 10px;
+}
+
+.footer{
+  margin-top: 20px;
+}
+
+.lucky{
+  color: #D70013;
+}
+
+#sched{
+  margin-top: 20px;
+}
+
+.table>tbody>tr>td{
+  border-top:none;
+}

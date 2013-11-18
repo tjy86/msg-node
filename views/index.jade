@@ -1,5 +1,109 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  .navbar.navbar-inverse.navbar-fixed-top(role='navigation')
+    .container
+      .navbar-header
+        button.navbar-toggle(type=button,data-toggle='collapse',data-target='.navbar-collapse')
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href='#') Moo Shu Grill
+      .collapse.navbar-collapse
+        ul.nav.navbar-nav
+          li.active
+            a(href='#') Home
+          li
+            a(href="http://www.twitter.com/mooshugrill") Twitter
+          li
+            a(href="http://www.facebook.com/mooshugrill") Facebook
+          li
+            a(href="#contact") Contact
+  .container
+    .row
+      .col-md-6.col-md-offset-3
+        img.img-responsive#logo(src='/msg-logo.jpg', alt='Moo Shu Grill')
+    .row
+      .col-md-6.col-md-offset-0
+        .heading
+          i.glyphicon.glyphicon-star.icon-heading
+          | Menu
+          i.glyphicon.glyphicon-star.icon-heading
+        span.menu-name.f-title 3 × Moo Shus
+          span.price $9
+        span.bcopy.f-body Moo Shu is traditionally served on a toasted flour moo shu wrapper and brushed with hoisin sauce. Our interpretation adds cilantro, cucumber, pickled carrots and daikon, then brushed with our house blend ginger scallion aioli... not your mama's moo shu.
+        span.menu-name.f-title Rice Bowl
+          span.price $9
+        span.bcopy.f-body Rice bowls are served with a bed of steamed jasmine rice or sticky crab rice*, sautéed soy bean sprouts, cucumber, cilantro, Sichuan style celery salad, pickled carrots and daikon, and topped with a ginger scallion aioli.
+        .heading
+          i.glyphicon.glyphicon-star.icon-heading
+          | Proteins
+          i.glyphicon.glyphicon-star.icon-heading
+        span.menu-name.f-title Five-Spice Pork
+        span.bcopy.f-body A blend of pork shoulder and pork belly is rubbed in a five spice hoisin marinade before it's charred over high heat for a caramelized finish. For the heat averse don't worry, five spice doesn't burn... much.
+        span.menu-name.f-title Taiwanese Basil Chicken
+        span.bcopy.f-body Stumbling through one of Taipei's many night markets you're bound to come across this national dish. Our version is tender slices of chicken thigh that's first marinated in soy sauce, Shaoxing wine, and sesame oil, then pan-seared and finished with basil.
+        span.menu-name.f-title XOXO Beef
+        span.bcopy.f-body XO sauce is a condiment of class and our original house recipe is no exception! Thin slices of flank steak are marinated in our secret blend of seafood and spices then browned to a sizzling crisp.
+        span.menu-name.f-title Tofu
+        span.bcopy.f-body Thick slices of tofu steak are pressed, then pan-seared in sesame oil for a crispy browned crust.
+        span.menu-name.f-title Peking Duck
+          .menu-sub (+$1 per moo shu / +$2 per rice bowl)
+        span.bcopy.f-body Beijing style roast duck. The meat is juicy and the skin is crispy, treat yourself today to Chinese cusine's most ballin bird.
+        span.menu-name.f-title Pork Belly
+          .menu-sub (only available for rice bowls)
+        span.bcopy.f-body Tender slices of succulent pork belly slow braised and served with sweet mustard greens. Bursting with earthy undertones this is real Hakka comfort food, just like grandma use to make!
+      .col-md-5.col-md-offset-1
+        .heading
+          i.glyphicon.glyphicon-star.icon-heading
+          span.lucky Lucky 8
+          |  Promo!
+          i.glyphicon.glyphicon-star.icon-heading
+
+
+        .bcopy New Yorkers have shown us a lot of support through our opening months, now it's our turn to return the <i class="glyphicon glyphicon-heart lucky"></i>
+        br
+        .bcopy Buy one entrée and get one FREE on all dates ending in 8 (the 8th, 18th, and the 28th) just our way of saying MSG <i class="glyphicon glyphicon-heart lucky"></i>s NYC!</div>
+          sub *Promotion cannot be combined with any other offers/promos.
+
+          .heading#sched
+            i.glyphicon.glyphicon-star.icon-heading
+            | Schedule
+            i.glyphicon.glyphicon-star.icon-heading
+
+
+          span.menu-name.f-title Monday
+          span.bcopy
+            a(href="http://twitter.com/dumbolot") DUMBO Lot
+            |  on Jay Street and Water Street in Brooklyn.
+
+          span.menu-name.f-title Tuesday
+          span.bcopy 50th Street and 6th Avenue.
+
+          span.menu-name.f-title Wednesday
+          span.bcopy 53rd Street and Park Avenue.
+
+          span.menu-name.f-title Thursday
+          span.bcopy 47th Street and Park Avenue.
+
+          span.menu-name.f-title Friday
+          span.bcopy 49th Street/50th Street and 6th Avenue.</span>
+
+          .heading#contact
+            i.glyphicon.glyphicon-star.icon-heading
+            | Contact
+            i.glyphicon.glyphicon-star.icon-heading
+          table.table.bcopy
+            tr
+              td Email
+              td
+                a(href='mailto:info@mooshugrill.com?subject=MSG') info@mooshugrill.com
+            tr
+              td Phone
+              td (212) 695-5995
+      .footer
+        p &copy;
+          a(href='http://www.luckmgmt.com')  Luck Management
+          |  2013
+          span.pull-right what what? chicken butt!

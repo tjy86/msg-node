@@ -1,0 +1,82 @@
+.page{
+  width: 612px;
+  height: 792px;
+  padding: 10px;
+  margin: 10px;
+  border: solid black 1px;
+}
+
+.logo{
+  float: left;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.top-right{
+  margin-top: -10px;
+  margin-left: 30px;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.clearfix{
+  clear: both;
+}
+
+.section{
+  float: left;
+  width: 100%;
+  margin: 20px 10px;
+}
+
+.title{
+  float: left;
+}
+
+.info{
+  float:left;
+}
+
+h4{
+  color: #d80216;
+}
+
+table{
+  font-size: 12px;
+}
+
+.td1{
+  width: 60px;
+}
+
+.td2, .td3, .td4, .td5, .td6{
+  width: 80px;
+}
+
+body{
+  font-family: 'PT Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.table{
+  margin-bottom: 5px;
+}
+
+h3{
+  font-family: 'Arvo', serif;
+  margin: 0 0;
+  margin-top: 18px;
+}
+
+.icon-heading{
+  font-size: 10px;
+  margin-right: 2px;
+  position: relative;
+  top:-.8px;
+  color: #D70013;
+}
+
+#braised{
+  margin-left: 42px;
+}
